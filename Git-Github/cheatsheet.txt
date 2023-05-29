@@ -1,0 +1,69 @@
+CHEATSHEET  
+
+Bash
+
+Comando	Descripción
+pwd -->   Identificar la ubicación de la terminal.
+cd -->	Navegar o ingresar a carpetas. Rutas absolutas (indicar toda la ruta 
+ejm: /home/ycastro/Documents), Rutas relativas parten de dónde está ubicada 
+la terminal.
+ls -->	Lista
+ls -a -->	Muestra todos los archivos, ocultos y no ocultos.
+ls . -->	Lista archivos desde la ubicación actual.
+cd .. -->	Devuelve un nivel hacia la carpeta de arriba.
+ls .. -->	Lista información dos niveles antes.
+mkdir + <nombre carpeta> -->	Crea directorios o carpetas.
+touch + <nombre archivo> -->	Crea archivos, para crear varios solo basta 
+escribirlos seguido con espacio.
+rm -->	Elimina archivos. *En la terminal no hay papelera entornes se elimina 
+por completo.
+rm -r -->	Elimina el directorio o carpeta con archivos contenidos en 
+ellos.
+rmdir --> 	Elimina directorio sin archivos Adentro.
+mv -->	Cambia el nombre del archivo o mueve el archivo entre directorios.
+nano + <nombre archivo> -->	Redirecciona a un editor de texto, alli creo 
+scripts con tipo archivo .sh o cualquier otra extensión para ingresar texto. 
+Para guardar Ctrl + O, Para salir Ctrl + X.
+./ archive.sh -- >Para ejecutar en bash el script creado en nano.
+clear -->	Limpia lo escrito en la terminal.
+
+Git + GitHub
+
+Comando	Descripción
+git init -->	Crea una carpeta oculta o repositorio.
+git config user.name         git config user.email -->	Configuración del git 
+con mi usuario de trabajo y correo. 
+git config - - global user.name         git config - - global user.email   --> 
+Configuración del git con mi usuario de trabajo y correo general, es decir, no 
+vuelvo a realizar la configuración de usuario, cada repositorio que cree llevará 
+esta misma config.
+git add + <nombre archivo con su extensión> -->	Se agregan los archivos, su 
+ubicación es el staging area.
+git add . -->  Se agregan todos los archivos de la ubicación actual, su 
+ubicación es el staging area. 
+git commit -m “Texto descriptivo” -->	Recuerdo del evento o descripción del 
+mismo, ya quedan oficialmente en el repositorio local.
+git branch -m master main -->	Cambia la configuración de la rama principal, 
+siempre debe llamarse main.
+git status -->	Muestra el estado de los archivos en el repositorio.
+git log	--> Ver el historial.
+git remote add origin <link repositorio en github> --> Se enlaza el repositorio 
+local con el remoto en GitHub.
+git config - -list -->	Se verifica que se ha agregado bien la configuración 
+entre el repositorio local y el remoto.
+git push -u origin main	--> Carga el repositorio local al remoto.
+git remote -v	--> Comprueba que está sincronizado el repositorio local con el 
+remoto.
+git clone + <ruta del repositorio github> -->	Crea una copia exacta en la 
+computadora local de los archivos existentes en el repositorio remoto.
+git pull origin main -->	Se actualiza el repositorio local con lo que se 
+encuentra en el remoto.
+nano .git/config --> Configuración del token del repositorio GitHub, simplifica 
+no realizarlo cada que se trabaje con ese repositorio.
+chmod -R a+w .git luego rm -rf .git -->	Para eliminar un archivo .git cuando 
+salen errores por permisos, se debe  eliminar el permiso de solo lectura y luego 
+si eliminar la carpeta.
+git branch <nombre_rama> -->	Crea una nueva rama del proyecto.
+git checkout <nombre_rama> -->  Se ubica dentro de la nueva rama creada.
+find . -name '.DS_Store' -type f -delete --> Elimina el archivo .DS_Store que me 
+crea Mac
