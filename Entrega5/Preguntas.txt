@@ -1,0 +1,4 @@
+Resolviendo las Preguntas, mesa 27
+1. Un lenguaje de programaciòn compila a lenguaje ensamblador el cual es ejecutado por el sistema operativo, este lenguaje ensamblador depende de 2 cosas, de la arquitectura del procesador y la interpretaciòn que le de el sistema operativo. Si en la computadora cambia la arquitectura del procesador el lenguaje ensamblador es totalmente diferente y no va a correr.
+2. Es un software para virtualizaciòn tambièn conocido como hipervisor de tipo 2, se utiliza para virtualizar sistemas operativos dentro de nuestro ordenador existente como Windows, Linux o MacOS, creando maquinas virtuales.
+3. Las màquinas virtuales son sistemas operativos independientes, de modo que si una de ellas falla, no afectarà al funcionamiento del resto.
