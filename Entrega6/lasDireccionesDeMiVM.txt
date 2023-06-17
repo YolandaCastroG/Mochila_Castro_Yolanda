@@ -1,0 +1,9 @@
+Dirrecciones de mi MV
+
+1. IP Privada
+192.168.64.4
+
+2. Direcciòn MAC
+35:99:a4:5a:53
+
+3. La direcciòn IP Publica es similar a mi Maquina Host, la privada si cambia.
